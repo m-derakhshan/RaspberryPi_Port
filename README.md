@@ -5,7 +5,7 @@ This repository represent a fork branch of the main repository Forty-Tw0's FreeR
 https://github.com/Forty-Tw0/RaspberryPi-FreeRTOS
 
 ## How to build FreeRTOS port For Raspberry pi 3B:
-at the first step, you need to clone the code located in [RaspberryPi-FreeRTOS](https://github.com/m-derakhshan/RaspberryPi_Port/tree/main/RaspberryPi-FreeRTOS) folder. These codes are almost as same as the primary repository codes. then follow the steps below to generate port output
+At the first step, you need to clone the code located in [RaspberryPi-FreeRTOS](https://github.com/m-derakhshan/RaspberryPi_Port/tree/main/RaspberryPi-FreeRTOS) folder. These codes are almost as same as the primary repository codes. then follow the steps below to generate port output
  - **Step One, Generate kernel7.img**
 
 Follow this [link](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads) from developer.arm.com to download the latest version of gcc-arm-none-eabi.
