@@ -21,7 +21,12 @@ we recommend you to download lite version of Raspberry Pi OS.
 the you need RaspberryPi Imager for booting Raspberry Pi OS. so follow [this link](https://www.raspberrypi.org/software/) and download sutable version of Raspberry Pi Imager based on you operating system.
 now you have all necessory tools for booting your SD Card with Raspberry Pi OS.
 so Insert your SD Card and open Raspberry Pi Imager.
-![Raspberry Pi imager](https://s4.uupload.ir/files/screenshot_2021-07-22_091621_rsjl.png)
+
+<p align="center">
+<img src="https://s4.uupload.ir/files/screenshot_2021-07-22_091621_rsjl.png" alt="drawing" width="500"/>
+</p>
+
+
 first by clicking on Choose OS, select the img file of Raspberry Pi OS Lite. then selecet your SD card. pay attention, the SD card will be formatted so make sure you don't have important info on that. then click on write and wait for process to be completed.
 
 Congratulation! every thing is ready to start your FreeRTOS, copy the Kernel7.img generated in the step one and replace it with the one located in the boot drive of SD Card. power on your Raspberry Pi and your [main.c](https://github.com/m-derakhshan/RaspberryPi_Port/blob/main/RaspberryPi-FreeRTOS/Demo/main.c) programm will start!
